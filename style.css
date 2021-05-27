@@ -1,6 +1,14 @@
 body {
-  background-image: url('https://images.unsplash.com/photo-1610268274009-ace24d01a05b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBva2Vtb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
-  /* background-size: 90% 300%; */
+  background: url('https://images.unsplash.com/photo-1610268274009-ace24d01a05b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBva2Vtb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60')
+    fixed;
+  font-family: 'Press Start 2P', cursive;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-size: contain;
+  }
 }
 
 .card-body h4 {
@@ -13,8 +21,17 @@ body {
 
 .prev-evol {
   width: 50%;
+  max-width: 150px;
 }
 
 img {
   max-width: 300px;
 }
+
+.btn-outline-danger:focus {
+  box-shadow: none;
+}
+
+/* .search-form {
+  height: 18vh;
+} */
