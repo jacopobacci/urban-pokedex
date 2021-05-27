@@ -1,0 +1,20 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1610268274009-ace24d01a05b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBva2Vtb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  /* background-size: 90% 300%; */
+}
+
+.card-body h4 {
+  text-transform: capitalize;
+}
+
+.main-img {
+  min-width: 300px;
+}
+
+.prev-evol {
+  width: 50%;
+}
+
+img {
+  max-width: 300px;
+}
